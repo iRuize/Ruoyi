@@ -61,6 +61,11 @@
             <artifactId>ruoyi-generator</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.objenesis</groupId>
+            <artifactId>objenesis</artifactId>
+            <version>3.3</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -92,5 +97,4 @@
         </plugins>
         <finalName>${project.artifactId}</finalName>
     </build>
-
 </project>
